@@ -10,17 +10,17 @@
       function sayHello() {
         document.getElementById("hello").innerHTML = "Hiya, buddy!";
       }
-      function sayGoodbye(){
+      function sayBye(){
         document.getElementById("goodbye").innerHTML = "See ya!";
       }
     </script>
   </head>
   <body>
     <div class="container-fluid">
-      <button type="button" class="btn btn-default" onclick="sayHello();">
+      <button type="button" class="btn btn-default" onclick="sayHello()">
         Sign in
       </button>
-      <button type="button" class="btn btn-default">
+      <button type="button" class="btn btn-default" onclick="sayBye()">
         Sign out
       </button>
       <div class="alert alert-success" role="alert" id="hello">
